@@ -1,4 +1,4 @@
-FROM debian:latest as build
+FROM debian:latest AS build
 WORKDIR /app
 
 RUN apt update && apt install -y git curl
